@@ -9,7 +9,7 @@ Para rodar localmente e necessario node js  11 <
 - Download
 
 ```sh
-git clone 
+git clone https://github.com/DeividFrancis/devtools.git
 ```
 
 - Instala as dependencias
