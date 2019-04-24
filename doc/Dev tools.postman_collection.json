@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "b5ebfe2b-2df0-4390-9b98-92a69705fd51",
+		"name": "Dev tools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Gerador",
+			"item": [
+				{
+					"name": "Pessoa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/pessoa",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"pessoa"
+							]
+						},
+						"description": "Gera dados de um brasileiro"
+					},
+					"response": []
+				},
+				{
+					"name": "Empresa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/empresa?pontuacao=S&estado=RO&idade=5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"empresa"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								},
+								{
+									"key": "estado",
+									"value": "RO"
+								},
+								{
+									"key": "idade",
+									"value": "5"
+								}
+							]
+						},
+						"description": "Gera dados de uma empresa"
+					},
+					"response": []
+				},
+				{
+					"name": "Cartão de crédito",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/cartao_credito?pontuacao=S&bandeira=master",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"cartao_credito"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								},
+								{
+									"key": "bandeira",
+									"value": "master"
+								}
+							]
+						},
+						"description": "Gerar dados de um cartão a partir da bandeira do mesmo\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Veículo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/veiculo?pontuacao=S",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"veiculo"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								}
+							]
+						},
+						"description": "Gera dados de um veiculo"
+					},
+					"response": []
+				},
+				{
+					"name": "Conta bancaria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/conta_bancaria",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"conta_bancaria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Renavam",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/renavam?pontuacao=S",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"renavam"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/gerar/cpf?pontuacao=S",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"cpf"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

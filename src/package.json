@@ -1,0 +1,17 @@
+{
+  "name": "dev-tools",
+  "version": "1.0.0",
+  "description": "Api simples com as ferramentas disponibilizadas pelo 4devs.com.br",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DeividF",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-group-routes": "^1.1.0"
+  }
+}
