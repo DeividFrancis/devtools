@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  api:
+    build: 
+      context: .
+    container_name: devtools
+    volumes:
+      - /src/*:/app/*
+    entrypoint: 
+      - nodemon 
+      - server.js
+    ports: 
+      - 8000:3000

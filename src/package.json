@@ -12,6 +12,11 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.16.4",
-    "express-group-routes": "^1.1.0"
+    "express-group-routes": "^1.1.0",
+    "node": "^11.14.0",
+    "server.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }

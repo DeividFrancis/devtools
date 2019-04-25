@@ -34,12 +34,22 @@ docker build -t deividoliver/devtools .
 ```sh
 docker run --rm -p 3000:3000 deividoliver/devtools
 ```
+
+- Docker composer
+
+Utilize o docker composer para iniciar a api no modo desenvolvedor
+onde sera iniciado com o nodemon e as alterações no código sera aplicada em tempo real.
+
+```sh
+docker-compose up
+```
+
 ## Postman
 
 Importe o json do postman para auxiliar nos endpoints disponiveis
 
 ### NOTA
 
-Esta api e apenas um wrapper da ferramenta online (4 Devs ferramentas online)[https://www.4devs.com.br/]
+Esta api e apenas um wrapper da ferramenta online https://www.4devs.com.br/
 assim todos os filtros aplicados pela dashboard pode ser adicionado a requisição
 atraves de querys params
