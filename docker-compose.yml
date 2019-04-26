@@ -5,9 +5,9 @@ services:
       context: .
     container_name: devtools
     volumes:
-      - /src/*:/app/*
-    entrypoint: 
-      - nodemon 
-      - server.js
+      - ./src:/app
+    # entrypoint: 
+    #   - nodemon 
+    #   - server.js
     ports: 
-      - 8000:3000
+      - 3000:3000

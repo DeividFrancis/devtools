@@ -1,7 +1,7 @@
 
 module.exports = (router) =>{
 
-    const gerador = require('./controllers/gerador')
+    const gerador = require('../controllers/gerador')
 
     router.group('/gerar', (router) => {
         router.get('/pessoa', gerador.pessoa)  

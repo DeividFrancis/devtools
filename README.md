@@ -2,6 +2,90 @@
 
 API restfull para facilitar a geração de dados ficticios
 
+# Funções suportas pela API
+
+
+- GERADORES
+
+-[ ] Gerador de Certidões
+-[x] Gerador de CNH
+-[x] Gerador de Conta Bancária
+-[x] Gerador de CPF
+-[ ] Gerador de Nicks
+-[ ] Gerador de Nomes
+-[ ] Gerador de Números Aleatórios
+-[ ] Gerador de PIS/PASEP
+-[x] Gerador de RENAVAM
+-[x] Gerador de Veículos
+-[ ] Gerador Placa de Veículos
+-[x] Gerador de CNPJ
+-[x] Gerador de CEP
+-[x] Gerador de RG
+-[x] Gerador Inscrição Estadual
+-[ ] Gerador Título de Eleitor
+-[x] Gerador Cartão de Crédito
+-[x] Gerador de Pessoas
+-[x] Gerador de Empresas
+-[ ] Gerador de Imagem
+-[ ] Gerador de Lorem Ipsum
+-[ ] Gerador de Senha
+
+- SEO
+
+-[ ] Gerador Meta Tags
+
+- VALIDADORES
+
+-[ ] Validador Cartão Crédito
+-[ ] Validador Conta Bancária
+-[ ] Validador de Certidões
+-[ ] Validador de CNH
+-[x] Validador de CNPJ
+-[x] Validador de CPF
+-[ ] Validador de PIS/PASEP
+-[ ] Validador de RENAVAM
+-[ ] Validador de RG
+-[ ] Validador Título de Eleitor
+-[x] Validar Inscrição Estadual
+
+- UTILIDADES
+
+-[x] Consulta Número do Banco
+
+- FUNÇÕES STRING
+
+-[ ] Colocar em Ordem Alfabética
+-[ ] Contador de Caracteres
+-[ ] Contador de Ocorrência de Palavra em um Texto
+-[ ] Converter Texto to HTML
+-[ ] Cortar Textos
+-[ ] Dividir String
+-[ ] Informações de Caracter
+-[ ] Inverter Texto
+-[ ] Letras Personalizadas
+-[ ] Maiúsculas e Minúsculas
+-[ ] Número por Extenso
+-[ ] Remover Acentos do Texto
+-[ ] Remover ou Trocar \n
+
+- REDE E INTERNET
+
+-[ ] Meu IP
+-[ ] Meu Navegador
+-[ ] Meu Sistema Operacional
+-[ ] ENCODES E DECODERS
+-[ ] Base64 Decodificar e Codificar
+-[ ] Calcular CRC32
+-[ ] Codificar MD5
+-[ ] Codificar SHA1
+-[ ] Gerador de QRCode
+-[ ] Tradutor de Código Binário
+-[ ] URL Encode/Decode
+-[ ] TABELAS E PADRÕES
+-[ ] Color Picker
+-[ ] Tabela ASCII
+-[ ] Colocar em Ordem Alfabética
+
 ## Intalação
 
 Para rodar localmente e necessario node js  11 <

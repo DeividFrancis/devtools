@@ -4,6 +4,9 @@
   "description": "Api simples com as ferramentas disponibilizadas pelo 4devs.com.br",
   "main": "server.js",
   "scripts": {
+    "start": "sh run.sh",
+    "dev": "nodemon server.js",
+    "prod": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DeividF",
@@ -16,7 +19,5 @@
     "node": "^11.14.0",
     "server.js": "^1.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.11"
-  }
+  "devDependencies": {}
 }

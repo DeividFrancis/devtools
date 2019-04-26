@@ -1,11 +1,19 @@
 FROM node:11-alpine
 
-COPY ./src /app
+ARG NODE_ENV=development
+ARG PORT=3000
+
+ENV NODE_ENV=${NODE_ENV}
+ENV PORT=${PORT}
+
 WORKDIR /app
+COPY ./src/package.json /app
 
 RUN npm install
-RUN npm install nodemon -g
 
-EXPOSE 3000
+COPY ./src /app
+RUN rm -rf node_modules
 
-CMD [ "node", "server.js" ]
+EXPOSE ${PORT}
+
+CMD [ "npm", "run", "start" ]
