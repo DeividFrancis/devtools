@@ -4,7 +4,6 @@ API restfull para facilitar a geração de dados ficticios
 
 # Funções suportas pela API
 
-
 - GERADORES
 
 -[ ] Gerador de Certidões
@@ -36,16 +35,16 @@ API restfull para facilitar a geração de dados ficticios
 
 - VALIDADORES
 
--[ ] Validador Cartão Crédito
--[ ] Validador Conta Bancária
--[ ] Validador de Certidões
--[ ] Validador de CNH
+-[x] Validador Cartão Crédito
+-[x] Validador Conta Bancária
+-[x] Validador de Certidões
+-[x] Validador de CNH
 -[x] Validador de CNPJ
 -[x] Validador de CPF
--[ ] Validador de PIS/PASEP
--[ ] Validador de RENAVAM
--[ ] Validador de RG
--[ ] Validador Título de Eleitor
+-[x] Validador de PIS/PASEP
+-[x] Validador de RENAVAM
+-[x] Validador de RG
+-[x] Validador Título de Eleitor
 -[x] Validar Inscrição Estadual
 
 - UTILIDADES

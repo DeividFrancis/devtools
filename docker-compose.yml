@@ -4,10 +4,9 @@ services:
     build: 
       context: .
     container_name: devtools
+    environment: 
+      - NODE_ENV=production
     volumes:
       - ./src:/app
-    # entrypoint: 
-    #   - nodemon 
-    #   - server.js
     ports: 
       - 3000:3000

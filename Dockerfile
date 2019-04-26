@@ -9,10 +9,11 @@ ENV PORT=${PORT}
 WORKDIR /app
 COPY ./src/package.json /app
 
-RUN npm install
-
 COPY ./src /app
 RUN rm -rf node_modules
+
+RUN npm install
+RUN npm install nodemon -g
 
 EXPOSE ${PORT}
 

@@ -207,6 +207,319 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Cnpj",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/gerar/cnpj?pontuacao=S",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"cnpj"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inscrição estadual",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/gerar/ie?pontuacao=S&estado=RO",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"gerar",
+								"ie"
+							],
+							"query": [
+								{
+									"key": "pontuacao",
+									"value": "S"
+								},
+								{
+									"key": "estado",
+									"value": "RO"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Validador",
+			"item": [
+				{
+					"name": "Cartão de crédito",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/cartao_credito/5546858379274039?bandeira=MasterCard",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"cartao_credito",
+								"5546858379274039"
+							],
+							"query": [
+								{
+									"key": "bandeira",
+									"value": "MasterCard"
+								}
+							]
+						},
+						"description": "A query bandeira e um parametro obrigatorio e os valores\nsuportados são\n\n- MasterCard\n- Visa\n- Visa Electron\n- American Express\n- Diners Club\n- Discover\n- Enroute\n- JCB\n- Maestro\n- Solo\n- Switch\n- LaserCard"
+					},
+					"response": []
+				},
+				{
+					"name": "Conta bancaria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/conta_bancaria/?banco=2&agencia=11797&conta=444332",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"conta_bancaria",
+								""
+							],
+							"query": [
+								{
+									"key": "banco",
+									"value": "2"
+								},
+								{
+									"key": "agencia",
+									"value": "11797"
+								},
+								{
+									"key": "conta",
+									"value": "444332"
+								}
+							]
+						},
+						"description": "Na query `banco` use da seguinte forma\n\n- 2   - Banco do Brasil\n- 121 - Bradesco\n- 85  - Citibank\n- 120 - Itaú\n- 151 - Santander"
+					},
+					"response": []
+				},
+				{
+					"name": "Certidao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/certidao/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"certidao",
+								"123"
+							]
+						},
+						"description": "Na query `banco` use da seguinte forma\n\n- 2   - Banco do Brasil\n- 121 - Bradesco\n- 85  - Citibank\n- 120 - Itaú\n- 151 - Santander"
+					},
+					"response": []
+				},
+				{
+					"name": "CNH",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/cnh/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"cnh",
+								"123"
+							]
+						},
+						"description": "Na query `banco` use da seguinte forma\n\n- 2   - Banco do Brasil\n- 121 - Bradesco\n- 85  - Citibank\n- 120 - Itaú\n- 151 - Santander"
+					},
+					"response": []
+				},
+				{
+					"name": "Cnpj",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/cnpj/555.112.602-15",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"cnpj",
+								"555.112.602-15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cpf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/cpf/555.112.602-15",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"cpf",
+								"555.112.602-15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PIS/PASEP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/pis/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"pis",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Renavam",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/renavam/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"renavam",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RG",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/rg/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"rg",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Titulo eleitor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/validar/titulo_eleitor/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"validar",
+								"titulo_eleitor",
+								"123"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
