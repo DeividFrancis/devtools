@@ -6,7 +6,8 @@ services:
     container_name: devtools
     environment: 
       - NODE_ENV=production
-    volumes:
-      - ./src:/app
+    #volumes:
+    #  - ./src:/app
     ports: 
       - 3000:3000
+    #command: tail -f /dev/null
