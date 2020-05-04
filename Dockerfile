@@ -7,10 +7,10 @@ ENV NODE_ENV=${NODE_ENV}
 ENV PORT=${PORT}
 
 WORKDIR /app
-COPY ./src/package.json /app
+#COPY ./src/package.json /app
 
 COPY ./src /app
-RUN rm -rf node_modules
+RUN rm -rf node_modules package-lock.json
 
 RUN npm install
 RUN npm install nodemon -g
