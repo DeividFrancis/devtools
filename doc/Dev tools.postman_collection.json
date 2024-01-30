@@ -27,7 +27,13 @@
 								"pessoa"
 							]
 						},
-						"description": "Gera dados de um brasileiro"
+						"description": "Gera dados de um brasileiro",
+						"query": [
+							{
+								"key": "txt_qtde",
+								"value": 1
+							}
+						]
 					},
 					"response": []
 				},
